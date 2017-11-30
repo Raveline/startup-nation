@@ -1,0 +1,32 @@
+{
+  "name": "startup-nation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+      "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/ThomasCrvsr/startup-nation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/ThomasCrvsr/startup-nation/issues"
+  },
+  "homepage": "https://gitlab.com/ThomasCrvsr/startup-nation#README",
+  "dependencies": {
+    "react": "16.2.0",
+    "react-dom": "16.2.0"
+  },
+  "devDependencies": {
+    "purs-loader": "3.1.2",
+    "webpack": "3.8.1",
+    "webpack-dev-server": "2.9.5"
+  }
+}
