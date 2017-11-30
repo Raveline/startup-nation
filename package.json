@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-      "start": "webpack-dev-server"
+    "start": "webpack-dev-server"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,7 @@
   },
   "homepage": "https://gitlab.com/ThomasCrvsr/startup-nation#README",
   "dependencies": {
+    "create-react-class": "15.6.2",
     "react": "16.2.0",
     "react-dom": "16.2.0"
   },
