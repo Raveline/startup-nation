@@ -1,12 +1,20 @@
-module Event (Event, foldp) where
+module Event
+       ( Event
+       , foldp
+       , beginFight
+       ) where
 
 import Prelude
 
 import Pux (EffModel, noEffects)
 
-import State (State)
+import State (State, Step(..))
 
-type Event = Unit
+data Event
+  = ChangeStep Step
 
 foldp :: forall fx. Event -> State -> EffModel State Event fx
-foldp _ s = noEffects s
+foldp (ChangeStep nextStep) s = noEffects $ s { step = nextStep }
+
+beginFight :: Event
+beginFight = ChangeStep Fight
