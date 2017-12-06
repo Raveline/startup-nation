@@ -37,3 +37,36 @@ button {
     border-width: 5px;
     padding: 0.5rem 1rem;
 }
+
+.team,
+.tasks {
+	display: inline-block;
+	width: 50%;
+}
+
+.team {
+    text-align: center;
+}
+
+.team .character {
+    margin: 4rem;
+}
+
+.character {
+    height: 80px;
+}
+
+.character img {
+    height: 100%;
+}
+
+.character .character__name {
+    margin: 0;
+}
+
+.tasks .task {
+	padding: 0.5rem 1rem;
+	margin: 0.5rem 2rem;
+	border: 2px solid black;
+	max-width: 450px;
+}

@@ -8,5 +8,8 @@ import Text.Smolder.Markup (text)
 
 import Event (Event)
 
+import Views.Battlefield (battlefield)
+
 fight :: HTML Event
-fight = div $ text "fighting"
+fight = div do
+  battlefield

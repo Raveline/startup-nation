@@ -8,4 +8,7 @@ data Character
               , category :: Category
               , attack :: Int
               , defense :: Int
+              , pv :: Int
+              , remainingLife :: Int
+              , velocity :: Int
               }
