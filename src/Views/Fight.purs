@@ -9,7 +9,9 @@ import Text.Smolder.Markup (text)
 import Event (Event)
 
 import Views.Battlefield (battlefield)
+import Views.DialogBox (dialogBox)
 
 fight :: HTML Event
 fight = div do
   battlefield
+  dialogBox
