@@ -71,6 +71,10 @@ button {
 	max-width: 450px;
 }
 
+.task.task--selected {
+	margin-left: 1rem;
+}
+
 .dialog-box {
 	max-width: 1000px;
 	min-height: 5rem;

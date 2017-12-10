@@ -14,7 +14,7 @@ import Views.Fight (fight)
 import Views.GameOver (gameOver)
 
 layout :: State -> HTML Event
-layout { step } = case step of
-                        Home -> home
-                        Fight -> fight
-                        GameOver -> gameOver
+layout { step, fightState } = case step of
+                                Home -> home
+                                Fight -> fight fightState
+                                GameOver -> gameOver

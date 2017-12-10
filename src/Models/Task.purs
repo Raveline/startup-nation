@@ -10,3 +10,5 @@ data Task
          , pv :: Int
          , remainingLife :: Int
          }
+
+derive instance eqTask :: Eq Task
