@@ -129,5 +129,5 @@ fixBug = Task { name: "Fix bug", pv: 2, remainingLife: 2 }
 meetInvestors :: Task
 meetInvestors = Task { name: "Meet investors", pv: 2, remainingLife: 2 }
 
-putInProd :: Task
-putInProd = Task { name: "Put in production", pv: 2, remainingLife: 2 }
+putIntoProd :: Task
+putIntoProd = Task { name: "Put into production", pv: 2, remainingLife: 2 }
