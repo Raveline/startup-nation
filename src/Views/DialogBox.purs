@@ -20,7 +20,7 @@ message :: FightState -> String
 message s = maybe waitingMsg characterAction $ activeCharacter s
 
 characterAction :: Character -> String
-characterAction (Character c) = "What " <> c.name <> " should do ?"
+characterAction (Character c) = "What should " <> c.name <> " do ?"
 
 waitingMsg :: String
 waitingMsg = "Welcome to start-up nation"
